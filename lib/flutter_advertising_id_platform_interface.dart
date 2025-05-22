@@ -1,6 +1,6 @@
-import 'package:flutter_advertising_id/flutter_advertising_id.dart';
 import 'package:plugin_platform_interface/plugin_platform_interface.dart';
 
+import 'flutter_advertising_id.dart';
 import 'flutter_advertising_id_method_channel.dart';
 
 abstract class FlutterAdvertisingIdPlatform extends PlatformInterface {

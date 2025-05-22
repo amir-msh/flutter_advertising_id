@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'dart:async';
 
 import 'package:flutter/services.dart';
-import 'package:flutter_advertising_id/flutter_advertising_id.dart';
+import 'package:advertising_id_flutter/flutter_advertising_id.dart';
 
 void main() {
   runApp(const MyApp());

@@ -1,4 +1,4 @@
-group = "dev.openflutter.flutter_advertising_id"
+group = "dev.openflutter.advertising_id_flutter"
 version = "1.0-SNAPSHOT"
 
 buildscript {

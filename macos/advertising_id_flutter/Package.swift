@@ -4,17 +4,17 @@
 import PackageDescription
 
 let package = Package(
-    name: "flutter_advertising_id",
+    name: "advertising_id_flutter",
     platforms: [
         .macOS("13.1")
     ],
     products: [
-        .library(name: "flutter-advertising-id", targets: ["flutter_advertising_id"])
+        .library(name: "advertising-id-flutter", targets: ["advertising_id_flutter"])
     ],
     dependencies: [],
     targets: [
         .target(
-            name: "flutter_advertising_id",
+            name: "advertising_id_flutter",
             dependencies: [],
             resources: [
                 // If your plugin requires a privacy manifest, for example if it collects user
