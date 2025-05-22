@@ -22,7 +22,7 @@ jobs:
       - run: cd example; flutter build ios --no-codesign
 
   test_iOS_SPM:
-    name: Test iOS on ${{ matrix.os }}
+    name: Test iOS with SPM on ${{ matrix.os }}
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
@@ -53,7 +53,7 @@ jobs:
 
 
   test_macOS_SPM:
-    name: Test macOS on ${{ matrix.os }}
+    name: Test macOS with SPM on ${{ matrix.os }}
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
