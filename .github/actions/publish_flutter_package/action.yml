@@ -13,7 +13,6 @@ runs:
       uses: actions/checkout@v4
     - name: 🐦 Setup Flutter
       uses: subosito/flutter-action@v2
-      run: flutter config --enable-swift-package-manager;
 
     - name: 🪪 Get Id Token
       uses: actions/github-script@v6
