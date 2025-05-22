@@ -1,14 +1,14 @@
-[![pub package](https://img.shields.io/pub/v/flutter_advertising_id.svg)](https://pub.dartlang.org/packages/fluwx)
+[![pub package](https://img.shields.io/pub/v/advertising_id_flutter.svg)](https://pub.dartlang.org/packages/advertising_id_flutter)
 ![Build status](https://github.com/OpenFlutter/flutter_advertising_id/actions/workflows/build_test.yml/badge.svg)
 [![GitHub stars](https://img.shields.io/github/stars/OpenFlutter/flutter_advertising_id)](https://github.com/OpenFlutter/fluwx/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/OpenFlutter/flutter_advertising_id)](https://github.com/OpenFlutter/fluwx/network)
+[![GitHub forks](https://img.shields.io/github/forks/OpenFlutter/flutter_advertising_id)](https://github.com/OpenFlutter/advertising_id_flutter/network)
 [![GitHub license](https://img.shields.io/github/license/OpenFlutter/flutter_advertising_id)](https://github.com/OpenFlutter/fluwx/blob/master/LICENSE)
 [![GitHub issues](https://img.shields.io/github/issues/OpenFlutter/flutter_advertising_id)](https://github.com/OpenFlutter/flutter_advertising_id/issues)
 <a target="_blank" href="https://qm.qq.com/q/TJ29rkzywM"><img border="0" src="https://pub.idqqimg.com/wpa/images/group.png" alt="OpenFlutter" title="OpenFlutter"></a>
 
 ---
 
-# flutter_advertising_id
+# advertising_id_flutter
 
 A Flutter plugin to access advertising ID.
 
@@ -18,14 +18,14 @@ Wraps [ASIdentifierManager.advertisingIdentifier](https://developer.apple.com/do
 
 Run this command
 ```
- flutter pub add flutter_advertising_id
+ flutter pub add advertising_id_flutter
 ```
 This will add a line like this to your package's pubspec.yaml
 
 ```yaml
 dependencies:
   ....
-  flutter_advertising_id: ^0.0.1
+  advertising_id_flutter: ${latestVersion}
 ```
 
 ## Usage
