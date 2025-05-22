@@ -18,6 +18,7 @@ jobs:
       - uses: subosito/flutter-action@v2
         with:
           channel: stable
+      - run: flutter config --enable-swift-package-manager              
       - run: flutter pub get
       - run: cd example; flutter build ios --no-codesign
   test_macOS:
@@ -31,6 +32,7 @@ jobs:
       - uses: subosito/flutter-action@v2
         with:
           channel: stable
+      - run: flutter config --enable-swift-package-manager    
       - run: flutter pub get
       - run: cd example; flutter build macos --no-codesign
 
