@@ -57,6 +57,16 @@ try {
 }
 ```
 
+### Get authorizationStatus
+
+Retrieves whether the user has limit ad tracking enabled or not.
+
+```dart
+
+final authorizationStatus = await FlutterAdvertisingId().authorizationStatus;
+
+```
+
 ## Star history
 
 ![stars](https://starchart.cc/OpenFlutter/flutter_advertising_id.svg)
