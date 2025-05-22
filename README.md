@@ -37,7 +37,7 @@ dependencies:
 String? advertisingId;
 // Platform messages may fail, so we use a try/catch PlatformException.
 try {
-  advertisingId = await FlutterAdvertisingId().getAdvertisingId(true);
+  advertisingId = await AdvertisingId().getAdvertisingId(true);
 } on PlatformException {
   advertisingId = null;
 }
@@ -51,7 +51,7 @@ Retrieves whether the user has limit ad tracking enabled or not.
 bool? isLimitAdTrackingEnabled;
 // Platform messages may fail, so we use a try/catch PlatformException.
 try {
-  isLimitAdTrackingEnabled = await FlutterAdvertisingId().limitAdTrackingEnabled;
+  isLimitAdTrackingEnabled = await AdvertisingId().limitAdTrackingEnabled;
 } on PlatformException {
   isLimitAdTrackingEnabled = false;
 }
@@ -63,7 +63,7 @@ Retrieves whether the user has limit ad tracking enabled or not.
 
 ```dart
 
-final authorizationStatus = await FlutterAdvertisingId().authorizationStatus;
+final authorizationStatus = await AdvertisingId().authorizationStatus;
 
 ```
 

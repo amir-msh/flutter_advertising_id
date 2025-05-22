@@ -18,7 +18,7 @@ class MyApp extends StatefulWidget {
 class _MyAppState extends State<MyApp> {
   String _platformVersion = 'Unknown';
   String _status = 'Unknown';
-  final _flutterAdvertisingIdPlugin = FlutterAdvertisingId();
+  final _flutterAdvertisingIdPlugin = AdvertisingId();
 
   @override
   void initState() {

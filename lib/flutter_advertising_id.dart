@@ -2,7 +2,7 @@ import 'flutter_advertising_id_platform_interface.dart';
 
 /// A class that provides methods to interact with the advertising ID and
 /// limit ad tracking settings of the platform.
-class FlutterAdvertisingId {
+class AdvertisingId {
   /// Retrieves the advertising ID of the device.
   ///
   /// If [requestTrackingAuthorization] is set to `true`, it will request
