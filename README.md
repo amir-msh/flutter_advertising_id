@@ -59,7 +59,7 @@ try {
 
 ### Get authorizationStatus
 
-Retrieves whether the user has limit ad tracking enabled or not.
+Retrieves whether the user has limit ad tracking enabled or not. This is only for iOS. It will always return `AuthorizationStatus.authorized` on Android.
 
 ```dart
 

@@ -37,7 +37,7 @@ abstract class FlutterAdvertisingIdPlatform extends PlatformInterface {
     );
   }
 
-  Future<TrackingAuthorizationStatus> get authorizationStatus async {
+  Future<AdTrackingAuthorizationStatus> get authorizationStatus async {
     throw UnimplementedError('authorizationStatus has not been implemented.');
   }
 }

@@ -36,13 +36,13 @@ class AdvertisingId {
   /// - `TrackingAuthorizationStatus.restricted`: The user has restricted tracking.
   /// - `TrackingAuthorizationStatus.denied`: The user has denied tracking.
   /// - `TrackingAuthorizationStatus.authorized`: The user has authorized tracking.
-  Future<TrackingAuthorizationStatus> get authorizationStatus async {
+  Future<AdTrackingAuthorizationStatus> get authorizationStatus async {
     return await FlutterAdvertisingIdPlatform.instance.authorizationStatus;
   }
 }
 
 /// The possible tracking authorization statuses for the device.
-enum TrackingAuthorizationStatus {
+enum AdTrackingAuthorizationStatus {
   /// The user has not yet made a choice regarding tracking.
   notDetermined,
 

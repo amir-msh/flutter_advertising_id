@@ -27,17 +27,17 @@ class MethodChannelFlutterAdvertisingId extends FlutterAdvertisingIdPlatform {
       await methodChannel.invokeMethod<bool?>('limitAdTrackingEnabled');
 
   @override
-  Future<TrackingAuthorizationStatus> get authorizationStatus {
+  Future<AdTrackingAuthorizationStatus> get authorizationStatus {
     return methodChannel.invokeMethod<int>('authorizationStatus').then((value) {
       switch (value) {
         case 0:
-          return TrackingAuthorizationStatus.notDetermined;
+          return AdTrackingAuthorizationStatus.notDetermined;
         case 1:
-          return TrackingAuthorizationStatus.restricted;
+          return AdTrackingAuthorizationStatus.restricted;
         case 2:
-          return TrackingAuthorizationStatus.denied;
+          return AdTrackingAuthorizationStatus.denied;
         case 3:
-          return TrackingAuthorizationStatus.authorized;
+          return AdTrackingAuthorizationStatus.authorized;
         default:
           throw Exception('Unknown authorization status: $value');
       }
